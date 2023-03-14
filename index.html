@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Swiper.js 3D Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper.min.css">
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Slide One</h3>
+                    </div>
+                    <div class="content">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim consequuntur tempora pariatur placeat. Doloremque nemo temporibus iusto corrupti asperiores possimus voluptas expedita enim laudantium? Laudantium minima corporis consequuntur quam ipsam?</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Slide Two</h3>
+                    </div>
+                        <div class="content">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim consequuntur tempora pariatur placeat. Doloremque nemo temporibus iusto corrupti asperiores possimus voluptas expedita enim laudantium? Laudantium minima corporis consequuntur quam ipsam?</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Slide Three</h3>
+                    </div>
+                    <div class="content">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim consequuntur tempora pariatur placeat. Doloremque nemo temporibus iusto corrupti asperiores possimus voluptas expedita enim laudantium? Laudantium minima corporis consequuntur quam ipsam?</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Slide Four</h3>
+                    </div>
+                    <div class="content">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim consequuntur tempora pariatur placeat. Doloremque nemo temporibus iusto corrupti asperiores possimus voluptas expedita enim laudantium? Laudantium minima corporis consequuntur quam ipsam?</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Slide Five</h3>
+                    </div>
+                    <div class="content">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim consequuntur tempora pariatur placeat. Doloremque nemo temporibus iusto corrupti asperiores possimus voluptas expedita enim laudantium? Laudantium minima corporis consequuntur quam ipsam?</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 30,
+                stretch: 0,
+                depth: 500,
+                modifier: 1,
+                slideShadows : true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+</body>
+</html>
